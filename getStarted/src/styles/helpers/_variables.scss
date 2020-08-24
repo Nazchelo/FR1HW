@@ -1,0 +1,54 @@
+// colors
+// Primery
+$primery-1:#1303f4;
+$primery-2:#09ff00;
+$primery-3:#ffff04;
+$primery-4:#ff0000;
+
+// ligten 1 level
+$pr1-light-1:mix(#fff, $primery-1,30%);
+$pr2-light-1:mix(#fff, $primery-2,30%);
+$pr3-light-1:mix(#fff, $primery-3,30%);
+$pr4-light-1:mix(#fff, $primery-4,30%);
+// ligten 2 level
+$pr1-light-2:mix(#fff, $primery-1,60%);
+$pr2-light-2:mix(#fff, $primery-2,60%);
+$pr3-light-2:mix(#fff, $primery-3,60%);
+$pr4-light-2:mix(#fff, $primery-4,60%);
+// ligten 3 level
+$pr1-light-3:mix(#fff, $primery-1,85%);
+$pr2-light-3:mix(#fff, $primery-2,85%);
+$pr3-light-3:mix(#fff, $primery-3,85%);
+$pr4-light-3:mix(#fff, $primery-4,85%);
+//darcken 1 level
+$pr1-dark-1:mix(#000, $primery-1,30%);
+$pr2-dark-1:mix(#000, $primery-2,30%);
+$pr3-dark-1:mix(#000, $primery-3,30%);
+$pr4-dark-1:mix(#000, $primery-4,30%);
+//darcken 2 level
+$pr1-dark-2:mix(#000, $primery-1,50%);
+$pr2-dark-2:mix(#000, $primery-2,50%);
+$pr3-dark-2:mix(#000, $primery-3,50%);
+$pr4-dark-2:mix(#000, $primery-4,50%);
+//darcken 3 level
+$pr1-dark-3:mix(#000, $primery-1,75%);
+$pr2-dark-3:mix(#000, $primery-2,70%);
+$pr3-dark-3:mix(#000, $primery-3,70%);
+$pr4-dark-3:mix(#000, $primery-4,70%);
+//fonts
+$font-regular:'Poppins-Medium';
+// $font-regular:'Poppins-Regular';
+// $font-regular:'Poppins-Bold';
+// $font-regular:'Poppins-SemiBold';
+// $font-regular:'Poppins-Light';
+// $font-regular:'Poppins';
+// $font-regular:'Museo-Sans-500';
+// $font-regular:'Open-Sans-Italic';
+// $font-regular:'Open-Sans-Light-Italic';
+// $font-regular:'Open-Sans-Extrabold';
+// $font-regular:'Open-Sans-Semibold';
+// $font-regular:'Open-Sans';
+// $font-regular:'Open-Sans-BoldItalic';
+// $font-regular:'Open-Sans-ExtraboldItalic';
+// $font-regular:'Open-Sans-Light';
+// $font-regular:'Open-Sans-Bold';
