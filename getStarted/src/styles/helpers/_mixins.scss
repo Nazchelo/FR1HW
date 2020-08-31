@@ -1,0 +1,24 @@
+%box-shadow{
+    box-shadow: 5px 5px 10 px black;
+    border-radius: 30px;
+    background-color: lightpink;
+    border:groove darkslateblue 5px;
+}
+%fonts{
+    font-size: 35px;
+    text-align: center;
+    color: deeppink;
+}
+@mixin font($size, $font: $font-medium, $color: $pr4-dark-3){
+    font-size: $size;
+    color: $color;
+    font-family: $font;
+}
+@mixin btn($width, $bg, $heigth:50px, $border:none,$font:$font-medium, $color:$light) {
+    width: $width;
+    background-color: $bg;
+    height: $heigth;
+    font-family: $font;
+    color: $color;
+    border: $border;
+}

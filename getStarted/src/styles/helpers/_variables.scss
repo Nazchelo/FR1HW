@@ -1,9 +1,9 @@
 // colors
 // Primery
-$primery-1:#1303f4;
-$primery-2:#09ff00;
-$primery-3:#ffff04;
-$primery-4:#ff0000;
+$primery-1:#03a9f4;
+$primery-2:#f75e2e;
+$primery-3:#ecfa4d;
+$primery-4:#656a70;
 
 // ligten 1 level
 $pr1-light-1:mix(#fff, $primery-1,30%);
@@ -36,19 +36,19 @@ $pr2-dark-3:mix(#000, $primery-2,70%);
 $pr3-dark-3:mix(#000, $primery-3,70%);
 $pr4-dark-3:mix(#000, $primery-4,70%);
 //fonts
-$font-regular:'Poppins-Medium';
-// $font-regular:'Poppins-Regular';
-// $font-regular:'Poppins-Bold';
-// $font-regular:'Poppins-SemiBold';
-// $font-regular:'Poppins-Light';
-// $font-regular:'Poppins';
-// $font-regular:'Museo-Sans-500';
-// $font-regular:'Open-Sans-Italic';
-// $font-regular:'Open-Sans-Light-Italic';
-// $font-regular:'Open-Sans-Extrabold';
-// $font-regular:'Open-Sans-Semibold';
-// $font-regular:'Open-Sans';
-// $font-regular:'Open-Sans-BoldItalic';
-// $font-regular:'Open-Sans-ExtraboldItalic';
-// $font-regular:'Open-Sans-Light';
-// $font-regular:'Open-Sans-Bold';
+$font-medium:'Poppins-Medium';
+$font-regular :'Poppins-Regular';
+$font-bold:'Poppins-Bold';
+$font-semibold:'Poppins-SemiBold';
+// $font-:'Poppins-Light';
+// $font-:'Poppins';
+// $font-:'Museo-Sans-500';
+// $font-:'Open-Sans-Italic';
+// $font-:'Open-Sans-Light-Italic';
+// $font-:'Open-Sans-Extrabold';
+// $font-:'Open-Sans-Semibold';
+// $font-:'Open-Sans';
+// $font-:'Open-Sans-BoldItalic';
+// $font-:'Open-Sans-ExtraboldItalic';
+// $font-:'Open-Sans-Light';
+// $font-:'Open-Sans-Bold';

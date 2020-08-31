@@ -1,3 +1,4 @@
+
 .colors{
     width: 500px;
     font-family: $font-regular;
@@ -106,6 +107,42 @@
 .pr-4-dark-3{
     background-color: $pr4-dark-3;
 }
-p{
+.error-enter{
+    display: inline-block;
+    position: relative;
+
+    input{
+    border: solid $primery-2 1px;
+    background-color: $pr3-light-3;
+    width: 320px;
+    height: 50px;
+    font-size: 13px;
     font-family: $font-regular;
+    color: $primery-1;
+        }
+        &::before{
+        content: '';
+        display: block;
+        width: 2px;
+        height: 15px;
+        background-color: $primery-2;
+        position: absolute;
+        right: 18px;
+        transform: rotate(45deg);
+        top: 15px;
+        }
+        
+        &::after{
+        content: '';
+        display: block;
+        width: 2px;
+        height: 15px;
+        background-color: $primery-2;
+        position: absolute;
+        right: 18px;
+        transform: rotate(-45deg);
+        top: 15px;
+        }
 }
+
+
